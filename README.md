@@ -16,4 +16,6 @@
 - Firebase Setup
 - Authentication
 - Firebase Database(save user data)
-- Hosting & Deploy  
+- Hosting & Deploy
+
+[API Key from https://www.themoviedb.org/settings/api]  
