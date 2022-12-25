@@ -2,6 +2,7 @@ import React from 'react';
 import Main from '../Main/Main';
 import requests from '../../Requests';
 import Row from '../Row/Row';
+import Watch from '../Watch/Watch';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
         <Row rowID='3' title='Trending' fetchURL={requests.requestTrending} />
         <Row rowID='4' title='Top Rated' fetchURL={requests.requestTopRated} />
         <Row rowID='5' title='Horror' fetchURL={requests.requestHorror} />
+        <Watch/>
         </>
     );
 };
