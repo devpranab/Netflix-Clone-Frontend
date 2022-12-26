@@ -3,6 +3,7 @@ import Main from '../Main/Main';
 import requests from '../../Requests';
 import Row from '../Row/Row';
 import Watch from '../Watch/Watch';
+import Accordion from '../Accordion/Accordion';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Row rowID='4' title='Top Rated' fetchURL={requests.requestTopRated} />
         <Row rowID='5' title='Horror' fetchURL={requests.requestHorror} />
         <Watch/>
+        <Accordion/>
         </>
     );
 };
