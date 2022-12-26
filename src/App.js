@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import SignUp from './components/Login/SignUp';
 import Account from './components/Account/Account';
+import Footer from './components/Footer/Footer';
 import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/signup" element={<SignUp />}/>
         <Route path="/account" element={<ProtectedRoute><Account /></ProtectedRoute>}/>
       </Routes>
+      <Footer/>
     </Router>
     </AuthContextProvider>
   );
