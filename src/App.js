@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import SignUp from './components/Login/SignUp';
 import Account from './components/Account/Account';
+import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/home" element={<Home />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/signup" element={<SignUp />}/>
-        <Route path="/account" element={<Account />}/>
+        <Route path="/account" element={<ProtectedRoute><Account /></ProtectedRoute>}/>
       </Routes>
     </Router>
     </AuthContextProvider>
