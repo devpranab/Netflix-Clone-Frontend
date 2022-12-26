@@ -19,3 +19,5 @@
 - Hosting & Deploy
 
 [API Key from https://www.themoviedb.org/settings/api]  
+[User: email-pranav154@gmail.com, password-pran@54sarkar]   
+[User: email-mistu155@gmail.com, password-mistu@54sarkar]  
