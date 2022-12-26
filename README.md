@@ -16,7 +16,7 @@
 - Firebase Setup
 - Authentication
 - Firebase Database(save user data)
-- Hosting & Deploy
+- Hosting & Deploy(netflix-mern-a3449.web.app)
 
 [API Key from https://www.themoviedb.org/settings/api]  
 [User: email-pranav154@gmail.com, password-pran@54sarkar]   
